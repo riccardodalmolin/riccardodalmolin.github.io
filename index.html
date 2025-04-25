@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Ingegneria</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #004080;
+      color: #fff;
+      padding: 1rem 2rem;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 120px 2rem 2rem;
+    }
+    section {
+      margin-bottom: 4rem;
+    }
+    h2 {
+      color: #004080;
+      margin-bottom: 1rem;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #004080;
+      color: #fff;
+    }
+    a.button {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: #004080;
+      color: #fff;
+      border-radius: 4px;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+    ul {
+        padding-left: 0;
+        list-style-position: inside; /* oppure outside per riportare il pallino fuori */
+        }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Riccardo Dal Molin</h1>
+    <nav>
+      <a href="#about">Chi Sono</a>
+      <a href="#studies">Percorso formativo</a>
+      <a href="#skills">Competenze</a>
+      <a href="#experience">Esperienze</a>
+      <a href="#projects">Progetti</a>
+      <a href="#contact">Contatti</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <h2>Chi Sono</h2>
+      <p>Sono uno studente del corso di laurea magistrale in Ingegneria Meccanica presso l'Università degli Studi di Padova.
+        Ho una grande passione per tutto ciò che riguarda la meccanica e l'innovazione tecnologica. Questa passione mi spinge sempre a cercare nuove sfide e opportunità di apprendimento.
+      </p>
+    </section>
+
+    <section id="studies">
+      <h2>Percorso formativo</h2>
+      <div class="card">
+        <h3>Laurea Magistrale in Ingegneria Meccanica</h3>
+        <p>Università degli Studi di Padova - 2024 - Presente</p>
+        <p>Corsi frequentati:
+            <ul>
+              <li>Meccanica delle Vibrazioni</li>
+              <li>Materiali non Metallici e Criteri di Selezione dei Materiali</li>
+              <li>Modeling and Simuation of Mechanical Systems</li>
+              <li>Termodinamica Applicata</li>
+              <li>Macchine 2</li>
+              <li>Impianti Indusrtiali</li>
+              <li>Motori a Combustione Interna</li>
+              <li>Gestione Strategica d'Impresa</li>
+              <li>Digital Manufacturing</li>
+            </ul>
+        </p>
+      </div>
+        <div class="card">
+        <h3>Laurea Triennale in Ingegneria Meccanica</h3>
+        <p>Università degli Studi di Padova- 2021 - 2024</p>
+        <p>Votazione finale: 97/110</p>
+        <p>Tesi di Laurea: Realizzazione e analisi di campioni in Alluminio 6061 prodotti mediante 
+            tecnica FDM, debinding e sinterizzazione  </p>
+        <p>Corsi frequentati:
+            <ul>
+              <li>Meccanica Applicata alle Macchine</li>
+              <li>Costruzione di Macchine 1</li>
+              <li>Meccanica dei Solidi</li>
+              <li>Meccanica dei Fluidi</li>
+              <li>Macchine 1</li>
+              <li>Fisica Tecnica</li>
+              <li>Impianti Indusrtiali</li>
+              <li>Materiali Metallici</li>
+              <li>Elettrotecnica</li>
+              <li>Misure Meccaniche e Termiche</li>
+              <li>Tecnologia Meccanica</li>
+            </ul>
+        </p>
+      </div>
+      <div class="card">
+        <h3>Diploma di Maturità Tecnica</h3>
+        <p>ITT "Vittorio Veneto" Città della vittoria - Anno di conseguimento: 2021</p>
+        <p>Votazione finale: 98/100</p>
+        <p>Specializzazione in informatica e telecomunicazioni.
+            Ho acquisito competenze in programmazione, reti e progettazione di sistemi informatici.
+            Durante il percorso scolastico ho fatto parte del team di robotica della scuola con il quale ho partecipato con successo a numerose competizioni, tra le quali:
+            <ul>
+              <li>First Lego League</li>
+              <li>Olimpiadi di robotica</li>
+              <li>Google Science Fair</li>
+              <li>Premio Scuola Digitale</li>
+              <li>Premio Innovazione Industria 4.0</li>
+              <li>Roma Maker Faire</li>
+            </ul>
+        </p>
+      </div>
+      <div class="card">
+        <h3>Corso di formazione personale Dimensione Vita</h3>
+        <p>Erogato da: DIVI Formazione s.r.l.</p>
+        <p>Il Corso Dimensione Vita è un’esperienza formativa che favorisce lo sviluppo personale, la comunicazione eﬃcace e 
+            l’apprendimento delle dinamiche relazionali al ﬁne di poter trarre un vantaggio sia dal punto di vista personale che 
+            professionale.</p>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>Competenze</h2>
+      <div class="skills">
+        <div class="card">📊 MATLAB</div>
+        <div class="card">⚙️ SolidWorks / Fusion</div>
+        <div class="card">⚙️ Adams View</div>
+        <div class="card">📈 Pacchetto Office</div>
+        <div class="card">🖥️ C++ / Java</div>
+        <div class="card">🌐 HTML / CSS / JavaScript</div>
+        <div class="card">🖧 Cisco Packet Tracer</div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Esperienze</h2>
+      <div class="card">
+        <h3>Stage presso InformaticaService s.r.l.</h3>
+        <p>Durante tale esperienza di alternanza scuola-lavoro ho svolto le seguenti attività:
+            <ul>
+                <li>riparazione e formattazione PC;</li>
+                <li>creazione di semplici plug-in, per il gestionale oﬀerto dall'azienda chiamato MEXAL, utilizzando il linguaggio
+                    SPRIX il quale risulta essere molto simile al BASIC.</li>
+            </ul>
+            </p>
+      </div>
+      <div class="card">
+        <h3>Volontariato - Team Formula Student</h3>
+        <p>Responsabile della progettazione del telaio. Esperienza pratica con modellazione 3D e test su pista.</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Progetti</h2>
+      <div class="projects">
+        <div class="card">
+          <h3>App Calcolatrice Ingegneristica</h3>
+          <p>Applicazione in Python per risolvere equazioni differenziali e calcoli strutturali.</p>
+        </div>
+        <div class="card">
+          <h3>Sito Web per Esami Universitari</h3>
+          <p>Portale con risorse per studenti: appunti, quiz e simulazioni d'esame.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contatti</h2>
+      <p>📧 Email: tuo.nome@studenti.universita.it</p>
+      <p>🔗 <a href="https://linkedin.com/in/tuo-nome" target="_blank">LinkedIn</a> | <a href="https://github.com/tuo-nome" target="_blank">GitHub</a></p>
+      <a class="button" href="mailto:tuo.nome@studenti.universita.it">Contattami</a>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 - Portfolio Ingegneria</p>
+  </footer>
+
+</body>
+</html>
