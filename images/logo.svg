@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="500"
+   height="120"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.4704801"
+     inkscape:cx="508.28703"
+     inkscape:cy="97.825082"
+     inkscape:window-width="2560"
+     inkscape:window-height="1494"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <rect
+     width="167.48346%"
+     height="145.86301%"
+     fill="#1a1a1a"
+     id="rect1"
+     x="-43.50983"
+     y="-55.035614"
+     style="stroke-width:1.563" />
+  <style
+     id="style1">
+    .logo {
+      font-family: 'Georgia', serif;
+      font-size: 36px;
+      fill: white;
+      font-weight: bold;
+    }
+  </style>
+  <text
+     x="45.310802"
+     y="69.953568"
+     class="logo"
+     id="text1"
+     transform="scale(0.85485254,1.1697924)"
+     style="font-weight:bold;font-size:36px;font-family:Georgia, serif;fill:#ffffff;stroke-width:6.17899"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;font-family:Sans;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       id="tspan1">Riccardo Dal Molin</tspan></text>
+</svg>
