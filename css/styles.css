@@ -3406,7 +3406,7 @@ td:last-child {
 }
 
 .s-intro__content-title {
-    font-size     : clamp(3.8rem, 4.8vw, 8.8rem);
+    font-size     : clamp(3.5rem, 4.5vw, 8.5rem);
     line-height   : 1.045;
     letter-spacing: -0.025em;
     margin-top    : 0;
