@@ -4108,6 +4108,10 @@ td:last-child {
     color      : var(--color-text-light);
 }
 
+.s-testimonials__ul{
+    list-style: square;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * works
@@ -4441,3 +4445,4 @@ td:last-child {
         right: -2rem;
     }
 }
+
